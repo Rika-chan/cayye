@@ -11,7 +11,7 @@ var MIN_PLAYERS = 3;
 var MAX_PLAYERS = 20;
 var ROUND_POINTS = 8;
 var MESSAGE_RATE = 7;
-var DEALER_TERM = "judge";
+var DEALER_TERM = "Magic Master";
 
 var TIMEOUTS = {
     nomination: 60,
