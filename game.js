@@ -9,15 +9,15 @@ var _ = require('underscore'),
 var HAND_SIZE = 8;
 var MIN_PLAYERS = 3;
 var MAX_PLAYERS = 20;
-var ROUND_POINTS = 5;
+var ROUND_POINTS = 8;
 var MESSAGE_RATE = 7;
 var DEALER_TERM = "judge";
 
 var TIMEOUTS = {
-    nomination: 25,
-    election: 40,
-    intermission: 20,
-    abandoned: 30, // clientless
+    nomination: 60,
+    election: 60,
+    intermission: 10,
+    abandoned: 180, // clientless
     afk: 10*60, // no actions
 };
 
